@@ -5,7 +5,14 @@
 > Looking for a quick way to get started with JetBot?  Many third party kits are [now available](../../wiki/third-party-kits)!
 
 <img src="../..//wiki/images/jetson-jetbot-illustration_1600x1260.png" height="256">
-
+```
+git clone https://github.com/Yarpii-Tech/jetbot
+cd jetbot
+sudo python3 setup.py install
+cd
+sudo apt-get install rsync
+rsync -r jetbot/notebooks ~/Notebooks
+```
 JetBot is an open-source robot based on NVIDIA Jetson Nano that is
 
 * **Affordable** - Less than $150 add-on to Jetson Nano
